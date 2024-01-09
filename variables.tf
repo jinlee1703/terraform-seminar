@@ -22,3 +22,19 @@ variable "support_vpc" {
   description = "NCP support vpc"
   default     = "true"
 }
+
+variable "zones" {
+  default = "KR-2"
+}
+
+variable "zone_name" {
+  default = "kr2"
+}
+
+variable "terraform_name" {
+  default = "oot"
+}
+
+variable "vpc_cidr" {
+  default = "10.98.0.0/16"
+}
